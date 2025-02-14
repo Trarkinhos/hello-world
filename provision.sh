@@ -2,7 +2,7 @@
 
 # Atualiza e faz upgrade sem mostrar a saída e instala o nodejs
 apt-get update > /dev/null 2>&1 && apt-get upgrade -y > /dev/null 2>&1
-apt-get install -y nodejs
+apt-get install nodejs -y
 
 # Verifica as versões
 node --version
